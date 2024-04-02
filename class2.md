@@ -18,6 +18,16 @@ food(); // This line calls the food function
 ## Arrow Functions
 In modern JavaScript, there's a shorter way to write functions called arrow functions. They look like this:
 
+Normal function
+```javascript
+function add(a, b) {
+    return a + b;
+}
+
+console.log(add(2, 3)); // Output: 5
+```
+Converted into an Arrow function
+
 ```javascript
 const add = (a, b) => a + b;
 

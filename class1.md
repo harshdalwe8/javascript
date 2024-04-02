@@ -1,5 +1,16 @@
 # JavaScript Data Types and Variable Declaration
 
+## JavaScript
+
+JavaScript is a high-level, interpreted programming language primarily used for client-side web development. It allows developers to add interactivity and dynamic behavior to web pages. However, JavaScript is a versatile language and can also be used for server-side development (Node.js), mobile app development (React Native), and even desktop application development (Electron).
+
+### Example:
+
+```javascript
+// JavaScript code to display a message
+console.log('Hello, world!');
+```
+
 In JavaScript, the common data types include `number`, `string`, `boolean`, `object`, `function`, and `undefined`. JSON is not a native data type in JavaScript, but it's a format used to store and exchange data.
 
 ## Variable Declaration
