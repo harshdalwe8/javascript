@@ -55,3 +55,28 @@ function update_food() {
 
 update_food();
 ```
+
+## JavaScript Execution
+JavaScript code is executed sequentially, from top to bottom and from left to right within a given scope.
+
+## Function Declaration
+To declare a function in JavaScript, you can use the following syntax:
+
+```javascript
+function functionName(parameters) {
+    // code to be executed
+}
+```
+
+The function can then be called by its name followed by parentheses containing any arguments.
+
+Example:
+
+```javascript
+function food() {
+    // code to execute here
+}
+
+food(); // Calling the function
+```
+
