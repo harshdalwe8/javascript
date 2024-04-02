@@ -59,6 +59,14 @@ update_food();
 ## JavaScript Execution
 JavaScript code is executed sequentially, from top to bottom and from left to right within a given scope.
 
+## Scope
+JavaScript has function scope, meaning variables defined inside a function are only accessible within that function. However, starting from ECMAScript 6 (ES6), let and const also have block scope, which means they are only accessible within the block (enclosed by curly braces) where they are defined.
+
+## Hoisting
+Variable declarations (but not initializations) and function declarations are hoisted to the top of their containing scope during the compilation phase. This means you can use variables and functions before they are declared.
+
+
+
 ## Function Declaration
 To declare a function in JavaScript, you can use the following syntax:
 
