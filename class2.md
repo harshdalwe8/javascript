@@ -18,7 +18,7 @@ food(); // This line calls the food function
 ## Arrow Functions
 In modern JavaScript, there's a shorter way to write functions called arrow functions. They look like this:
 
-Normal function
+Normal function:
 ```javascript
 function add(a, b) {
     return a + b;
@@ -26,7 +26,7 @@ function add(a, b) {
 
 console.log(add(2, 3)); // Output: 5
 ```
-Converted into an Arrow function
+Converted into an Arrow function:
 
 ```javascript
 const add = (a, b) => a + b;
@@ -53,6 +53,27 @@ function processData(data) {
 fetchData(processData); // This line triggers fetchData, passing processData as a callback function
 ```
 
+Another example:
+```javascript
+// Function to perform an operation on two numbers
+function calculate(num1, num2, operation) {
+    return operation(num1, num2);
+}
+
+// Callback function to add two numbers
+function add(a, b) {
+    return a + b;
+}
+
+// Callback function to multiply two numbers
+function multiply(a, b) {
+    return a * b;
+}
+
+// Using the calculate function with different callback functions
+console.log(calculate(5, 3, add)); // Output: 8 (5 + 3)
+console.log(calculate(5, 3, multiply)); // Output: 15 (5 * 3)
+```
 
 
 
