@@ -1,20 +1,34 @@
-// function add(a, b) {
-//     return a + b;
-// }
-
-// console.log(add(5, 3)); // Output: 
-
-// const add = (a, b) => a + b;
-
-// console.log(add(2, 3)); 
-
-
 const math = {
-    add: (a, b) => {return ( a + b) },
-    sub: (a, b) => {return ( a - b )},
-    multiply: (a, b) => {return (a * b) }
+    add: (a, b) => {
+        // console.log(a + b);
+        return (a + b);
+    },
+    sub: (a, b) => {
+        // console.log(a - b);
+        return (a - b);
+    },
+    multiply: (a, b) => {
+        // console.log(a * b);
+        return (a * b);
+    },
+    remender: (a, b) => {
+        // console.log(a % b);
+        return (a % b);
+    },
+    devide: (a, b) => {
+        // console.log(a / b);
+        return (a / b);
+    }
 };
 
-console.log(math.sub(5,3));
+function executeAll(obj, a, b) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'function') {
+            console.log(`${key}: ${obj[key](a, b)}`);
+        }
+    }
+}
 
-
+const a = 5;
+const b = 15;
+executeAll(math, a, b);
