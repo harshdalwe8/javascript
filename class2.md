@@ -34,6 +34,17 @@ const add = (a, b) => a + b;
 console.log(add(2, 3)); // This will output 5
 ```
 
+Example of object of arrow functions:
+```javascript
+const math = {
+    add: (a, b) => { return (a + b) },
+    sub: (a, b) => { return (a - b) },
+    multiply: (a, b) => { return (a * b) }
+};
+
+console.log(math.sub(5, 3));
+```
+
 ## Callback Functions
 JavaScript can handle asynchronous operations, which are tasks that take time to finish. Callback functions are used to deal with these tasks. Here's an example:
 
