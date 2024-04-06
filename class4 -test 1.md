@@ -16,6 +16,7 @@ console.log(x);
 ```
 
 ## Object-Oriented Programming (OOP) Concepts
+
 ### Q. Define encapsulation in the context of object-oriented programming (OOP).
 
 ### Q. What is inheritance and how does it benefit in OOP?
