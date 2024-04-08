@@ -39,13 +39,6 @@ const myCar = {
     "price": 10000000
 };
 
-myCar = {
-    "company": " Martin",
-    "model": "V8 ",
-    "owner": "Lus",
-    "color": "skyue",
-    "price": 100000
-};
 
 
 // myCar["owned_by"] = "Harsh Dalwe";
