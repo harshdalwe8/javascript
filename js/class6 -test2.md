@@ -25,5 +25,5 @@ d) for (let i = 0; i++) { // code to be executed }
 
 ### Write a while loop to calculate the factorial of a given number n.
 
-### Write a do-while loop to repeatedly prompt the user to enter a number until the number entered is greater than 10.
+
 
