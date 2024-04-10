@@ -1,9 +1,9 @@
 const express = require('express');
+const exampleRoutes = express.Router();
 
 // import test data from test_data.js file
 const person = require('../test_data');
 
-const exampleRoutes = express.Router();
 
 
 exampleRoutes.get('/welcome',(req, res) => {
