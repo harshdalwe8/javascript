@@ -1,4 +1,4 @@
-[
+var people =[
     {
         "_id": "66169026553f210544e984f2",
         "index": 0,
@@ -224,4 +224,6 @@
         "greeting": "Hello, Sims Grimes! You have 10 unread messages.",
         "favoriteFruit": "strawberry"
     }
-] 
+] ;
+
+module.exports = people;
