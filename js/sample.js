@@ -6,8 +6,11 @@
 
 const people = require('./test_data');
 
+
 people.forEach(person => {
+    
     console.log("____________");
+
     for (const key in person) {
         if (Object.hasOwnProperty.call(person, key)) {
             const element = person[key];
@@ -17,3 +20,8 @@ people.forEach(person => {
         }
     }
 });
+
+
+
+
+
