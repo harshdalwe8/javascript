@@ -226,4 +226,12 @@ var people =[
     }
 ] ;
 
+
+// Array of JSON objects representing a list of people
+// const people = [
+//     { "name": "John", "age": 30, "city": "New York" },
+//     { "name": "Alice", "age": 25, "city": "Los Angeles" },
+//     { "name": "Bob", "age": 35, "city": "Chicago" }
+//   ];
+
 module.exports = people;
